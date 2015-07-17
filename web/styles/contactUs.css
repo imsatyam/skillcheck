@@ -1,0 +1,27 @@
+/* 
+    Contact Us related CSS
+*/
+
+input{
+    width: 250px;
+}
+
+textarea{
+    width: 100%;
+}
+
+input[type=button]{
+    width: 100px;
+}
+
+#queryConfirmSection{
+    margin: 30px 0 0 10px;
+}
+
+#locations{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

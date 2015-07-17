@@ -1,0 +1,300 @@
+
+@import url(form.css);
+@import url(table.css);
+
+body{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family:Verdana,sans-serif;
+    color:  gray;/*#979797;*/
+    background-color:white;
+}
+
+/************************ Basic Styles ************************************** */
+img{
+    margin:0; 
+    padding:0; 
+    border:none;
+}
+.justify{
+    text-align:justify;
+}
+.bold{
+    font-weight:bold;
+}
+.center{
+    text-align:center;
+}
+.right{
+    text-align:right;
+}
+.nostart{
+    list-style-type:none; 
+    margin:0; 
+    padding:0;
+}
+
+.link{
+    text-decoration: none;
+    color: #800517;
+}
+
+/* ************************************************************************** */
+
+/* ************************ Header section css ****************************** */
+#header{
+    background-color:#800517;
+    color: white;
+    height: 40px;
+}
+
+#logo{
+    width: 650px;
+    float: left;
+    font-size:16px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+#social{
+    width: 250px;
+    float: right;
+    display: inline;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+#socialLinks{
+    float: right;
+}
+
+.socialLink{
+    text-decoration: none;
+}
+
+/* ********************** Header section css ends **************************** */
+
+/* ********************** Menu Section *************************************** */
+
+#menu{
+    border-bottom: 1px solid;
+    border-bottom-color: gray;
+    display: table;
+    width: 960px;
+}
+
+.subMenuItem{
+    margin: 2px;
+    padding: 3px;
+    border: 1px solid #DEDACB;
+    background-color: gray; 
+    display: block;
+    width: 168px; 
+    height:20px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.subMenuItem :hover{
+    font-weight: bold; 
+}
+
+.subMenuLink{
+    margin:2px;
+    padding: 2px;
+    vertical-align: middle;
+    color : white;
+    text-decoration: none;
+}
+
+.selectedMenu{
+    background-color: #800517;
+    color: white;
+    font-weight: bold;
+}
+
+
+#menuList{
+    display: table-row;
+}
+
+.menuItem{
+    display: table-cell;
+    margin-left: 40px;
+    display: inline;
+    font-weight: bold;
+}
+
+#menuList :first-child{
+    margin-left: 0px;
+}
+
+.menuItem :hover{
+    color: #800517;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: gray;
+}
+
+.selected{
+    color: #800517;
+}
+
+/* *************************************************************************** */
+
+/* *************************  Main Content Styles *************************** */
+#mainContent{
+    margin-top: 15px;
+    min-height: 600px;
+}
+
+.leftColumn{
+    width: 740px;
+    margin-right: 5px;
+    float: left;
+    display: inline;
+}
+
+.rightColumn{
+    width: 200px;
+    margin-left: 5px;
+    display: inline;
+    float: right;
+}
+
+#mainContent h1, #mainContent h2, #mainContent h3, #mainContent h4, #mainContent h5, #mainContent h6{
+    margin:0 0 5px 0;
+    padding:0;
+    font-size:14px;
+    font-weight:bold;
+    font-style:normal;
+    line-height:normal;
+    color: #800517;
+    border-bottom:1px solid #DEDACB;
+}
+
+/* *************************************************************************** */
+/* *********************    Footer              ****************************** */
+#footer{
+    background-color:lightgray;
+    color: black;
+    height: 40px;
+    display: block;
+}
+
+#copyright{
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+}
+/* *************************************************************************** */
+
+.container{
+    position:relative;
+    margin:0 auto 0;
+    width:960px;
+    text-align:left;
+}
+
+.clearError{
+    display:none;
+}
+
+.error{
+    color:#800517;
+    display:block;
+    font-weight: bold;
+}
+
+#userLoginDetail{
+    width: 150px;
+    float: right;
+    display: inline;
+    padding: 10px;
+    padding-right: 0px;
+    font-weight: bold;
+}
+
+.logOutLink{
+    text-decoration: none;
+    color: white;
+}
+
+.pageHeading{
+    margin: 30px 0 10px 0;
+    padding:0;
+    font-size:14px;
+    font-weight:bold;
+    font-style:normal;
+    line-height:normal;
+    color: #800517;
+}
+
+.message{
+    color:darkgreen;
+    display:block;
+    font-weight: bold;
+}
+
+.noMessage{
+    display: none;
+}
+
+.inlineHead{
+    margin:0 0 5px 0;
+    padding:0;
+    font-size:12px;
+    font-weight:bold;
+    font-style:normal;
+    line-height:normal;
+    color: #800517;
+    border-bottom:none;
+}
+
+.setHide{
+    display: none;
+}
+
+.setVisible{
+    display: block;
+}
+
+.border-1px{
+    border: 1px solid #DEDACB;
+}
+
+.min-height-200{
+    min-height: 200px;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.superscript{
+    font-weight: bold;
+    color: #800517;
+    vertical-align: super;
+}
+
+.superscriptLike{
+    font-weight: bold;
+    color: #800517;
+}
+
+.bgColor{
+    background-color: oldlace;
+}
+
+.textLink{
+    color: #800517;
+    text-decoration: none;
+}

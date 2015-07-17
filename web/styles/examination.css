@@ -1,0 +1,21 @@
+.height-30px{
+    vertical-align: middle;
+    height: 30px;
+}
+
+.valign-middle{
+    vertical-align: middle;
+}
+
+.odd{
+    background-color: #E5E4E2;
+}
+
+input[type=button]{
+    width:80px;
+    text-align: center;
+}
+
+input[type=radio]{
+    width:20px;
+}

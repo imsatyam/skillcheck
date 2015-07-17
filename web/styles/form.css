@@ -1,0 +1,21 @@
+
+form{
+    margin:0;
+    padding:0;
+    padding-top:10px;
+    border:none;
+}
+
+input, textarea, select{
+    font-size:12px;
+    font-family:Verdana,sans-serif;
+    width:200px;
+    border:1px solid gray;
+    margin: 0 0 5px 0;
+}
+
+input[type=button]:hover{
+    background-color: #800517;
+    color: white;
+    cursor: pointer;
+}

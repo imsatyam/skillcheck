@@ -1,0 +1,76 @@
+#description{
+    margin-top: 30px;
+    min-height: 180px;
+}
+
+#details{
+    display:block;
+    width:960px;
+}
+
+#sideMenu{
+    width: 180px;
+    height: 65px;
+    border: 1px solid;
+    border-color: #DEDACB;
+    float:left;
+}
+
+#subsections{
+    margin-left: 10px;
+    width: 750px;
+    min-height: 200px;
+    float: right;
+}
+
+.logOutLink{
+    text-decoration: none;
+    color: white;
+}
+
+.divSection{
+    margin: 0 5px 5px 15px;
+}
+
+.formSection{
+    margin: 0 5px 5px 5px;
+}
+
+.formTable{
+    margin-left: 10px;
+}
+
+input, textArea, select{
+    width: 300px;
+}
+
+input[type=button]{
+    width: 120px;
+    text-align: center;
+}
+
+input[type=checkbox]{
+    width: 30px;
+}
+
+#mainContent{
+    min-height:2000px;
+}
+
+#toolbarDiv{
+    width: 100%;
+    border: 1px solid darkgrey;
+    background-color: gainsboro;
+    margin-bottom: 5px;
+}
+
+.normalDiv{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.menuImage{
+    width: 16px;
+    height:16px;
+    margin: 1px;
+}

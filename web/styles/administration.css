@@ -1,0 +1,50 @@
+#description{
+    margin-top: 30px;
+    min-height: 180px;
+}
+
+#details{
+    display:block;
+    width:960px;
+}
+
+#sideMenu{
+    width: 180px;
+    height: 65px;
+    border: 1px solid;
+    border-color: #DEDACB;
+    float:left;
+}
+
+#subsections{
+    margin-left: 10px;
+    width: 750px;
+    min-height: 200px;
+    float: right;
+}
+
+.logOutLink{
+    text-decoration: none;
+    color: white;
+}
+
+.divSection{
+    margin: 0 5px 5px 15px;
+}
+
+.formSection{
+    margin: 0 5px 5px 15px;
+}
+
+.formTable{
+    margin-left: 10px;
+}
+
+input, textArea{
+    width: 300px;
+}
+
+input[type=button]{
+    width: 80px;
+    text-align: center;
+}

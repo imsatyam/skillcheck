@@ -1,0 +1,50 @@
+#description{
+    margin-top: 30px;
+    min-height: 180px;
+}
+
+#details{
+    display:block;
+    width:960px;
+}
+
+#userImage{
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+    border-color: #DEDACB;
+    float:left;
+}
+
+#userDetails{
+    margin-left: 10px;
+    width: 750px;
+    height: 200px;
+    float: right;
+}
+
+#nameSection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userDetailsRow{
+    margin-top: 5px;
+    width: 750px;
+    text-align: left;
+}
+
+#profilePicture{
+    margin: 5px;
+    width: 170px;
+    height: 170px;
+}
+
+.contentSectionRow{
+    margin-top: 20px;
+}
+
+.logOutLink{
+    text-decoration: none;
+    color: white;
+}
